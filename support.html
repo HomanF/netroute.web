@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetRoute - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #30D5C8 0%, #0095DA 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section h2 {
+            color: #0095DA;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #30D5C8;
+        }
+        
+        .section h3 {
+            color: #333;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+            color: #555;
+        }
+        
+        .section ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .section li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+        
+        .contact-box h3 {
+            color: #0095DA;
+            margin-top: 0;
+        }
+        
+        .contact-box a {
+            color: #0095DA;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .faq-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #30D5C8;
+        }
+        
+        .faq-item h4 {
+            color: #0095DA;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 25px 20px;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ NetRoute Support</h1>
+            <p>Smart Proxy & Network Routing</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>📖 What is NetRoute?</h2>
+                <p>
+                    NetRoute is a powerful network routing and proxy management tool for iOS. 
+                    It allows you to configure and manage proxy connections with advanced routing rules, 
+                    giving you complete control over how your device connects to the internet.
+                </p>
+                <p>
+                    <strong>Key Features:</strong>
+                </p>
+                <ul>
+                    <li>Multiple proxy profile management (SOCKS5, HTTP, HTTPS, Shadowsocks)</li>
+                    <li>Advanced domain-based routing rules</li>
+                    <li>Real-time connection monitoring and testing</li>
+                    <li>Network activity logging</li>
+                    <li>Customizable interface with multiple themes</li>
+                    <li>Complete privacy - all data stored locally on your device</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>❓ Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <h4>How do I add a proxy profile?</h4>
+                    <p>
+                        1. Open NetRoute<br>
+                        2. Tap the <strong>Profiles</strong> tab<br>
+                        3. Tap the <strong>+</strong> button<br>
+                        4. Enter your proxy details (host, port, protocol)<br>
+                        5. Tap <strong>Save</strong>
+                    </p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>What proxy protocols are supported?</h4>
+                    <p>
+                        NetRoute supports:
+                    </p>
+                    <ul>
+                        <li>SOCKS5 (recommended for most use cases)</li>
+                        <li>HTTP</li>
+                        <li>HTTPS</li>
+                        <li>Shadowsocks</li>
+                    </ul>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>How do routing rules work?</h4>
+                    <p>
+                        Routing rules allow you to specify which domains should use the proxy and which should connect directly. 
+                        For example, you can route <code>example.com</code> through a proxy while letting other traffic connect normally.
+                    </p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Does NetRoute provide proxy servers?</h4>
+                    <p>
+                        <strong>No.</strong> NetRoute is a configuration and management tool. You must provide your own proxy servers. 
+                        The app does not provide, operate, or sell proxy services.
+                    </p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Is my data safe?</h4>
+                    <p>
+                        <strong>Yes!</strong> NetRoute does not collect any data. All your proxy configurations, routing rules, 
+                        and settings are stored locally on your device only. We never transmit your data to any servers.
+                    </p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>How do I test my connection?</h4>
+                    <p>
+                        1. Go to the <strong>Dashboard</strong><br>
+                        2. Connect to a profile<br>
+                        3. The connectivity test will run automatically<br>
+                        4. View latency and connection status
+                    </p>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>Can I use NetRoute in the background?</h4>
+                    <p>
+                        Yes! NetRoute supports background location updates for tracking your network connectivity. 
+                        You can enable "Always" location permission in Settings to allow the app to monitor 
+                        your connection even when not actively using it.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🔧 Troubleshooting</h2>
+                
+                <h3>Connection Not Working</h3>
+                <ul>
+                    <li>Verify your proxy server details (host, port, credentials)</li>
+                    <li>Check that your proxy server is online and accessible</li>
+                    <li>Try testing the connection from the Dashboard</li>
+                    <li>Review the Logs tab for error messages</li>
+                </ul>
+                
+                <h3>App Crashes or Freezes</h3>
+                <ul>
+                    <li>Force quit the app and restart</li>
+                    <li>Check for app updates in the App Store</li>
+                    <li>Restart your device</li>
+                    <li>If the issue persists, contact support</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>📱 System Requirements</h2>
+                <ul>
+                    <li>iOS 17.0 or later</li>
+                    <li>iPhone, iPad, or iPod touch</li>
+                    <li>Internet connection</li>
+                    <li>Access to proxy server credentials (if using authentication)</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>📧 Contact Support</h2>
+                <div class="contact-box">
+                    <h3>Need More Help?</h3>
+                    <p>
+                        If you have questions, bug reports, or feature requests, we'd love to hear from you!
+                    </p>
+                    <p>
+                        <strong>Email:</strong> <a href="mailto:infoNetRoute@gmail.com">infoNetRoute@gmail.com</a>
+                    </p>
+                    <p>
+                        <strong>Developer:</strong> Homan Farhadian
+                    </p>
+                    <p style="margin-top: 15px; color: #666; font-size: 0.95em;">
+                        We typically respond within 24-48 hours.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🔗 Useful Links</h2>
+                <ul>
+                    <li><a href="privacy-policy.html" style="color: #0095DA; text-decoration: none; font-weight: 600;">Privacy Policy</a></li>
+                    <li><a href="https://apps.apple.com" style="color: #0095DA; text-decoration: none; font-weight: 600;">App Store Page</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 Homan Farhadian All rights reserved.</p>
+            <p style="margin-top: 10px;">NetRoute v1.0</p>
+        </div>
+    </div>
+</body>
+</html>
